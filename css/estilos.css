@@ -3,7 +3,7 @@
 	width: 1000px;
 	height: auto;
 	margin: auto;
-	position: relative;	
+	position: relative;
 }
 
 
@@ -13,6 +13,8 @@ body{
 background: white;
 background-repeat: no-repeat;
 background-size: cover;
+font-family: 'Franklin Gothic Book';
+src: local('Franklin Gothic Book'), url('FRABK.woff') format('woff');
 }
 
 h1{
@@ -49,17 +51,16 @@ border-radius: 50px;
 ul{
 margin: auto;
 padding-top: 7px;
+padding-left: 250px;
 }
 
 li{
-	font-family: 'Franklin Gothic Book';
-	src: local('Franklin Gothic Book'), url('FRABK.woff') format('woff');
 	float: left;
 	list-style-type: none;
 	padding: 10px;
 	margin: 3px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px white inset; 
+	box-shadow: 0 0 10px rgb(242,184,13) inset;
 
 }
 
@@ -90,15 +91,10 @@ float: left;
 margin-top: 20px;
 border-radius: 10px;
 margin-bottom: 20px;
+color: white;
+text-align: center;
 }
 
-p{
-	font-size: 15px;
-	font-weight: bolder;
-	line-height: 24px;
-	padding: 10px;
-	text-align: justify;
-}
 
 
 /*Clases*/
@@ -108,7 +104,7 @@ p{
 
 .menu:link{color: white; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px white;}
 .menu:active{color: white; text-decoration: none;}
 
 /*SEUDO CLASES*/
