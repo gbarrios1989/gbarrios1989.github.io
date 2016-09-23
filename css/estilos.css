@@ -6,7 +6,6 @@
 	position: relative;
 }
 
-
 /*creacion del codigo para el estilo de pagina*/
 
 body{
@@ -40,7 +39,6 @@ margin-bottom: 8px;
 }
 
 nav{
-
 width: 1000px;
 height: 60px;	
 background: rgb(255,85,0);
@@ -61,7 +59,6 @@ li{
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgb(242,184,13) inset;
-
 }
 
 section{
@@ -104,10 +101,9 @@ text-align: center;
 
 .menu:link{color: white; text-decoration: none;}
 .menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px white; background:}
+.menu:hover{color: black; text-decoration: none; text-shadow: 0 0 13px black;}
 .menu:active{color: white; text-decoration: none;}
 
-/*SEUDO CLASES*/
 
 
 
